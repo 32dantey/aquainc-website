@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -11,10 +12,10 @@ module.exports = {
       },
       colors: {
         'aqua-green':'rgb(151, 195, 85)',
-        "aqua-blue":'rgb(56, 115, 181)'
+        'aqua-blue':'rgb(56, 115, 181)'
       },
       backgroundImage:{
-        'gtob':"url(./src/images/SVGs/StackedWaves.svg)"
+        'gtob':'url(./src/images/SVGs/StackedWaves.svg)'
       }
     },
   },
