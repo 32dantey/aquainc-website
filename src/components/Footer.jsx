@@ -3,6 +3,8 @@ import aquaLogo from '../images/Logos/aqua logo.png'
 
 
 export default function Footer() {
+    const d = new Date()
+    let year = d.getFullYear()
     return (
         <footer id='footer '>
             <div className='bg-btogtob bg-cover font-poppins  text-center'>
@@ -48,6 +50,7 @@ export default function Footer() {
 
                 </div>
 
+            <p>Copyright@Aquainc Year:{year}</p>
             </div>
         </footer>
     )

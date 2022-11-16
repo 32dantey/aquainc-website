@@ -24,7 +24,7 @@ function Hero() {
                     </div>
                 </div>
                 {/* Carousel Section on the right */}
-                <div className='w-80 h-80'>
+                <div className='max-w-md'>
                     <Carousel />
                 </div>
             </div>
