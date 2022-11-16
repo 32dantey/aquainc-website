@@ -34,5 +34,12 @@ const products = [
     itemDescription: '',
     image: 'src/images/Product Images/CPC.png',
   },
+  {
+    item: 'Mud Pumps',
+    sizes: ['500m', '750mm', '1000mm', '1+ Metre'],
+    moc: '',
+    itemDescription: '',
+    image: 'src/images/Product Images/SM.png',
+  },
 ]
 export default products

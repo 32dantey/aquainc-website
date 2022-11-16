@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.spacer {
+    aspect-ratio: 1650/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}

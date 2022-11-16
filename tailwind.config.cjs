@@ -15,7 +15,10 @@ module.exports = {
         'aqua-blue':'rgb(56, 115, 181)'
       },
       backgroundImage:{
-        'gtob':'url(./src/images/SVGs/StackedWaves.svg)'
+        'graytog':'url(./src/images/SVGs/StackedWaves.svg)',
+        'btogtob':'url(./src/images/SVGs/BtoGtoB.svg)',
+        'gtob':'url(./src/images/SVGs/GreenToBlue.svg)'
+
       }
     },
   },
@@ -23,3 +26,4 @@ module.exports = {
 }
 // gtob path
 // src\images\SVGs\StackedWaves.svg
+// src\images\SVGs\BtoGtoB.svg

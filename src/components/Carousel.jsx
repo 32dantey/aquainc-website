@@ -8,7 +8,7 @@ export default function Carousel() {
 
     // Carousel Interface
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -19,13 +19,15 @@ export default function Carousel() {
     }
 
     return (
-        <div className='p-4'>
+        <div>
             <Slider {...settings}>
                 {products.map((product, num) => {
                     return (
                         <div key={num} className="">
-                            <img src={product.image} alt='item-name' className='' />
-                            <h1 className="text-4xl text-white">
+                            <div>
+                            <img src={product.image} alt='item-name' className='object-cover' />
+                            </div>
+                            <h1 className="text-4xl font-light text-white">
                                 {product.item}
                             </h1>
                         </div>

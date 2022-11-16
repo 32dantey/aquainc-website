@@ -68,7 +68,7 @@ export default function Navbar() {
 				</div>
 				<ul className='hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2  lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6'>
 					<li>
-						<a className='text-sm text-gray-400 hover:text-gray-500' href='#'>
+						<a className='text-sm text-gray-400 hover:text-gray-500 hover:border-b-4 hover:border-blue-500 ' href='#'>
 							Home
 						</a>
 					</li>
@@ -89,7 +89,7 @@ export default function Navbar() {
 						</svg>
 					</li>
 					<li>
-						<a className='text-sm text-gray-300' href='#'>
+						<a className='text-sm text-gray-300 hover:border-b-4 hover:border-blue-500 ' href='#'>
 							About Us
 						</a>
 					</li>
@@ -110,7 +110,7 @@ export default function Navbar() {
 						</svg>
 					</li>
 					<li>
-						<a className='text-sm text-gray-400 hover:text-gray-500' href='#'>
+						<a className='text-sm text-gray-400 hover:text-gray-500 hover:border-b-4 hover:border-blue-500 ' href='#'>
 							Products
 						</a>
 					</li>
