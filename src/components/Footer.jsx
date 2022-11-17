@@ -6,9 +6,9 @@ export default function Footer() {
     const d = new Date()
     let year = d.getFullYear()
     return (
-        <footer id='footer '>
-            <div className='bg-btogtob bg-cover font-poppins  text-center'>
-                <div className="grid md:grid-cols-5 md:gap-3 justify-items-center backdrop-blur-sm p-10 " >
+        <footer id='footer'>
+            <div className='bg-btogtob bg-cover font-poppins text-center'>
+                <div className="grid lg:grid-cols-5 lg:gap-3 justify-items-center backdrop-blur-sm p-10 " >
                     <div>
                         <h1 className='font-bold text-4xl'>
                             <img src={aquaLogo} alt="footslog" className='object-cover w-40' />
@@ -50,7 +50,7 @@ export default function Footer() {
 
                 </div>
 
-            <p>Copyright@Aquainc Year:{year}</p>
+            <p>Copyright@Aquainc Year: {year}</p>
             </div>
         </footer>
     )

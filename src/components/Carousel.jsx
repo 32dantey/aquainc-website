@@ -25,7 +25,7 @@ export default function Carousel() {
                     return (
                         <div key={num} className="">
                             <div>
-                            <img src={product.image} alt='item-name' className='object-cover' />
+                            <img src={product.image[0]} alt='item-name' className='object-cover' />
                             </div>
                             <h1 className="text-4xl font-light text-white">
                                 {product.item}

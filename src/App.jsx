@@ -8,18 +8,15 @@ import Products from './components/Products'
 
 
 
-
-
 function App() {
 
 
   return (
     <>
-    <Navbar/>
+    <Navbar />
     <Hero/>
     <Products/>
     <Footer/>
-
     </>
   )
 }

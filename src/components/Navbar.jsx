@@ -45,7 +45,7 @@ export default function Navbar() {
 
 	return (
 		<section id='navigation' className='font-poppins'>
-			<nav className='relative px-4 py-4 flex justify-between items-center bg-gray-800'>
+			<nav className='relative px-4 py-4 flex justify-between items-center  bg-gray-800'>
 				<a className='text-3xl font-bold flex flex-center leading-none' href='#'>
 					<img src={aquaLogo} className='h-16' alt='company-logo' />
 					<span className='self-center text-3xl mx-4 font-semibold whitespace-nowrap'>
