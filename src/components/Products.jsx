@@ -21,11 +21,11 @@ export default function Products() {
                                 <a href="#">
                                     <img className="object-cover  p-2 " src={item.image[0]} alt="itemImage" />
                                 </a>
-                                <div className="p-5">
+                                <div className="p-5 overflow-auto">
                                     <a href="#">
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">{item.item}</h5>
                                     </a>
-                                    <p className="mb-3 font-normal text-gray-700">{item.itemDescription}</p>
+                                    <p className="mb-3  text-gray-700 overflow-y-auto">{item.itemDescription}</p>
                                     <a href="#" 
                                         onClick={()=>{
                                             setModal(true)

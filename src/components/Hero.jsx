@@ -5,10 +5,10 @@ import Carousel from './Carousel'
 function Hero() {
     return (
         <section className='font-poppins bg-graytog spacer'>
-            <div className='grid sm:py-5 sm:grid-cols-2 gap-2 items-center justify-items-center text-center'>
+            <div className='grid p-3 sm:grid-cols-2 gap-2 items-center justify-items-center justify-center text-center '>
                 {/* Left Section */}
-                <div className='mx-2 my-10 sm:mx-7 sm:py-20 shadow-lg text-white backdrop-blur-sm bg-white/20 rounded-lg'>
-                    <div className="p-3">
+                <div className=' mx-auto my-10 sm:mx-7 sm:py-20 shadow-lg text-white backdrop-blur-sm bg-white/20 rounded-lg'>
+                    <div className="p-3 ">
                         <h1 className=" font-bold text-5xl pb-2">
                             <span className="text-aqua-green">Aqua</span>
                             <span> </span>
@@ -24,7 +24,7 @@ function Hero() {
                     </div>
                 </div>
                 {/* Carousel Section on the right */}
-                <div className='max-w-md'>
+                <div className='max-w-xs  '>
                     <Carousel />
                 </div>
             </div>
