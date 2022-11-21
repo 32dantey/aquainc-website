@@ -13,9 +13,9 @@ module.exports = {
         "aqua-blue": "rgb(56, 115, 181)",
       },
       backgroundImage: {
-        graytog: "url(src/images/StackedWaves.svg)",
-        btogtob: "url(src/images/BtoGtoB.svg)",
-        gtob: "url(src/images/GreenToBlue.svg)",
+        graytog: "url(/images/StackedWaves.svg)",
+        btogtob: "url(/images/BtoGtoB.svg)",
+        gtob: "url(/images/GreenToBlue.svg)",
       },
     },
   },
