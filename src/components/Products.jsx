@@ -7,7 +7,7 @@ export default function Products() {
     const [item,setItem] = useState(null)
 
     return (
-        <section className='bg-gtob bg-cover font-poppins'>
+        <section id='products' className='bg-gtob bg-cover font-poppins'>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center p-3 items-center">
                 {/* Products Display */}
                 

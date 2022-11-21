@@ -82,7 +82,7 @@ export default function ProductModal({ visibility, item }) {
                         </a>
                     </div>
                 </div>
-
+                            
             </div>
         </div >
 

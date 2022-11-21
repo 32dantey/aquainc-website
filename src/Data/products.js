@@ -5,7 +5,7 @@ const products = [
     moc: ['uPVC'],
     itemDescription:
       'Tube settlers which are also known as plate settlers or lamella clarifiers are used in drinking- and wastewater treatment plants to settle out suspended solids. Depending on the application the TSS (total suspended solids) loading can vary between 50 to 500mg/l or more.',
-    image: ['src/images/Product Images/TBM.png', 'src/images/Product Images/TBM2.png'],
+    image: ['src/images/TBM.png', 'src/images/TBM2.png',],
     catalog: 'src/downloads/aquainc.pdf',
   },
   {
@@ -15,10 +15,10 @@ const products = [
     itemDescription:
       'The MBBR process utilizes floating High Capacity MicroOrganism BioChips media within the aeration and anoxic tanks. The microorganisms consume organic material. The media provides increased surface area for the biological microorganisms to attach and grow.',
     image: [
-      'src/images/Product Images/MBBR.png',
-      'src/images/Product Images/MBBR2.png',
-      'src/images/Product Images/MBBR3.png',
-      'src/images/Product Images/MBBR4.png',
+      'src/images/MBBR.png',
+      'src/images/MBBR2.png',
+      'src/images/MBBR3.png',
+      'src/images/MBBR4.png',
     ],
     catalog: 'src/downloads/aquainc.pdf',
   },
@@ -29,8 +29,8 @@ const products = [
     itemDescription:
       'Tube Diffusers are a variant of Fine Bubble Diffuser designed specifically for high sludge affliction in a tank, they are best suited for heavy duty aeration as they have a 360° aerator surface and hence sludge formation is lowered around them due to continuation around it. MBRs, CETPs and ETP/STPs all incorporate Tubular diffusers in their designs.',
     image: [
-      'src/images/Product Images/AIRFINSilicon.png',
-      'src/images/Product Images/AirfinEPDM.png',
+      'src/images/AIRFINSilicon.png',
+      'src/images/AirfinEPDM.png',
     ],
     catalog: 'src/downloads/Airfin.pdf',
   },
@@ -40,7 +40,7 @@ const products = [
     moc: ['EPDM', 'Silicon'],
     itemDescription:
       'Disc diffusers are compression molded EPDM / Silicon / Viton / PTFE layered membranes with low plasticizer and filler to ensure exceptional quality, strength and longer prudent life.The diffuser assembly of base and ring are constructed of glass fiber reinforced poly propylene for maximum life and durability. ',
-    image: ['src/images/Product Images/DiscEPDM.png'],
+    image: ['src/images/DiscEPDM.png'],
     catalog: 'src/downloads/Airfin.pdf',
   },
   {
@@ -49,7 +49,7 @@ const products = [
     moc: ['CI', 'SS304', 'SS316', 'WCB', 'Exotic Alloys'],
     itemDescription:
       'Specially designed multi-utility pumps capable of transferring nearly any kind of liquid including solids and chemicals. These can be incorporated into any water treatment projects due to their versatility and the added benefit of being able to handle liquids generally not under the operating parameters of Mud and Sludge transfer pumps.',
-    image: ['src/images/Product Images/CPC.png'],
+    image: ['src/images/CPC.png'],
     catalog: 'src/downloads/CP.pdf',
   },
   {
@@ -58,7 +58,7 @@ const products = [
     moc: ['CI', 'SS304', 'SS316', 'WCB', 'Exotic Alloys'],
     itemDescription:
       'Mud Pumps are also called sludge transfer pumps and are the most viable pumps fro lifting up sludge deposited at the bottom of the tanks, they are versatile enough to be mounted on a trolley and can be moved around. due to their special design, they are also called as self priming pumps and as the name suggests, can suck sludge and liquids directly even under negative suction.',
-    image: ['src/images/Product Images/SM.png'],
+    image: ['src/images/SM.png'],
     catalog: 'src/downloads/SM.pdf',
   },
   {

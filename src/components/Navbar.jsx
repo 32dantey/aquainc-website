@@ -1,5 +1,5 @@
 import React from 'react'
-import aquaLogo from '../images/Logos/aqua logo.png'
+import aquaLogo from '../images/aqua logo.png'
 
 export default function Navbar() {
 	// Burger menus
@@ -110,7 +110,7 @@ export default function Navbar() {
 						</svg>
 					</li>
 					<li>
-						<a className='text-sm text-gray-400 hover:text-gray-500 hover:border-b-4 hover:border-blue-500 ' href='#'>
+						<a className='text-sm text-gray-400 hover:text-gray-500 hover:border-b-4 hover:border-blue-500 ' href='#products'>
 							Products
 						</a>
 					</li>
