@@ -16,6 +16,7 @@ module.exports = {
         graytog: "url(/images/StackedWaves.svg)",
         btogtob: "url(/images/BtoGtoB.svg)",
         gtob: "url(/images/GreenToBlue.svg)",
+        expo:"url(/images/bgimage.jpg)"
       },
     },
   },

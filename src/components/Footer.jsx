@@ -1,5 +1,5 @@
 import React from 'react'
-import aquaLogo from '../images/aqua logo.png'
+import aquaLogo from '/images/aqua logo.png'
 
 
 export default function Footer() {
