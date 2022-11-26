@@ -51,6 +51,7 @@ export default function Footer() {
                 </div>
 
             <p>Copyright@Aquainc Year: {year}</p>
+            <p>Website Still Under Construction, Version 0.1.0</p>
             </div>
         </footer>
     )
